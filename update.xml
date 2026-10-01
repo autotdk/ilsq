@@ -31,7 +31,7 @@
     Tag Release phải đúng v<version>, tên file đính kèm phải đúng iLSQ.exe.
     Upload executable trước, cập nhật manifest sau; không commit executable vào repo source.
   -->
-  <url>https://github.com/autotdk/ilsq/releases/download/v1.0.0/iLSQ.exe</url>
+  <url>https://github.com/autotdk/ilsq/releases/download/v1.0/iLSQ.exe</url>
   <!--
     SHA-256 của đúng executable đã phát hành, gồm 64 ký tự hex.
     Script tự tính giá trị này. Nếu build lại, ký số, nén hoặc thay file exe,
