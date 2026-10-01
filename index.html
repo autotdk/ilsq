@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101826">
+  <meta name="description" content="iLSQ — công cụ hỗ trợ Loạn 12 Sứ Quân trên PC. Tự động đánh trận, quản lý nhiều client, kỹ năng và trang bị trong giao diện gọn nhẹ.">
+  <title>iLSQ — Đồng hành cùng Loạn 12 Sứ Quân</title>
+  <link rel="icon" href="assets/icon.ico">
+  <link rel="apple-touch-icon" href="assets/icon.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="header"><div class="container header-inner">
+    <a class="brand" href="#" aria-label="iLSQ — Trang chủ"><img src="assets/icon.png" alt="" width="44" height="44"><span>iLSQ<small>LOẠN 12 SỨ QUÂN</small></span></a>
+    <nav aria-label="Điều hướng"><a href="#features">Tính năng</a><a href="#guide">Hướng dẫn</a></nav>
+    <a class="button button-small download-link" href="https://github.com/autotdk/ilsq/releases/latest/download/iLSQ.exe">Tải xuống <span aria-hidden="true">↗</span></a>
+  </div></header>
+  <main>
+    <section class="hero container">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> DÀNH CHO BẢN PC · WINDOWS X64</div>
+        <h1>Chinh chiến nhẹ tay.<br><em>Tiến bước mỗi ngày.</em></h1>
+        <p class="lead">Để iLSQ đồng hành cùng bạn trong Loạn 12 Sứ Quân. Từ xếp ngọc đến trận kế tiếp — tất cả trong một giao diện gọn gàng, riêng cho từng client.</p>
+        <div class="hero-actions"><a class="button download-link" href="https://github.com/autotdk/ilsq/releases/latest/download/iLSQ.exe"><span aria-hidden="true">↓</span> Tải iLSQ cho Windows</a><a class="text-link" href="#guide">Cách bắt đầu <span aria-hidden="true">→</span></a></div>
+        <p class="download-meta" id="release-status" aria-live="polite">Windows 10 / 11 · 64-bit · Xem bản phát hành trên GitHub</p>
+        <div class="hero-facts"><div><strong>Tự động</strong><span>Xếp ngọc & nối trận</span></div><div><strong>Nhiều client</strong><span>Cấu hình từng nhân vật</span></div><div><strong>Gọn nhẹ</strong><span>C++ · Win32 native</span></div></div>
+      </div>
+      <div class="hero-visual">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <span class="visual-label">BẠN CHỌN CHIẾN THUẬT. iLSQ LO THAO TÁC.</span>
+        <div class="app-frame"><div class="frame-caption"><span class="status-dot"></span> iLSQ <span>GIAO DIỆN PC</span></div><img src="assets/interface.png" alt="Ảnh minh họa giao diện iLSQ với danh sách client, cấu hình trận và bảng ngọc" width="450" height="1155" fetchpriority="high"></div>
+        <div class="visual-badge"><img src="assets/icon.png" width="64" height="64" alt=""><div>Cho những trận đấu tiếp nối.<small>Điều khiển tập trung, thao tác đơn giản.</small></div></div>
+        <p class="image-caption">Ảnh minh họa giao diện với bảng ngọc mẫu.</p>
+      </div>
+    </section>
+    <section class="features section container" id="features">
+      <div class="section-heading"><div><div class="eyebrow">BỘ CÔNG CỤ CỦA BẠN</div><h2>Từ một trận đấu<br>đến cả hành trình.</h2></div><p>Tập trung vào những thao tác lặp lại, giữ các lựa chọn quan trọng trong tay bạn.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><span class="card-icon" aria-hidden="true">◇</span><span class="card-number">01</span><h3>Tự động xếp ngọc</h3><p>Phân tích bảng ngọc và thực hiện lượt đi theo thứ tự ưu tiên bạn chọn. Điều chỉnh tốc độ và nhịp nghỉ theo nhu cầu.</p><span class="card-tag">CẤU HÌNH ƯU TIÊN</span></article>
+        <article class="feature-card"><span class="card-icon" aria-hidden="true">⚔</span><span class="card-number">02</span><h3>Đánh trận liên tiếp</h3><p>Quét và chọn quái, tự vào trận, xử lý kết quả rồi chuyển sang trận kế tiếp. Có thể dừng riêng từng client.</p><span class="card-tag">QUÉT → VÀO TRẬN → TIẾP TỤC</span></article>
+        <article class="feature-card"><span class="card-icon" aria-hidden="true">▦</span><span class="card-number">03</span><h3>Quản lý nhiều client</h3><p>Tự tìm client khi game mở. Mỗi nhân vật có cấu hình và trạng thái riêng; chạy hoặc dừng các client đã tick cùng lúc.</p><span class="card-tag">MỖI CLIENT MỘT CẤU HÌNH</span></article>
+        <article class="feature-card"><span class="card-icon" aria-hidden="true">✦</span><span class="card-number">04</span><h3>Kỹ năng chủ động</h3><p>Xem danh sách kỹ năng ngoài trận, chọn kỹ năng cần dùng và thiết lập điều kiện MP cho quá trình đánh tự động.</p><span class="card-tag">CHỦ ĐỘNG CHỌN KỸ NĂNG</span></article>
+        <article class="feature-card"><span class="card-icon" aria-hidden="true">⛨</span><span class="card-number">05</span><h3>Trang bị & vật phẩm</h3><p>Theo dõi trang bị, sửa theo ngưỡng độ bền và nhặt vật phẩm. Các mục thiết lập được chia tab để dễ tìm.</p><span class="card-tag">THEO DÕI ĐỘ BỀN</span></article>
+        <article class="feature-card"><span class="card-icon" aria-hidden="true">↗</span><span class="card-number">06</span><h3>Map & theo dõi tiến trình</h3><p>Chọn map mục tiêu, xem danh sách nhiệm vụ và đọc log hoạt động. Kiểm tra bản cập nhật ngay khi mở tool.</p><span class="card-tag">THÔNG TIN TRONG MỘT CỬA SỔ</span></article>
+      </div>
+    </section>
+    <section class="guide-section" id="guide"><div class="container section">
+      <div class="section-heading"><div><div class="eyebrow">BẮT ĐẦU TRONG VÀI BƯỚC</div><h2>Mở game. Chọn client.<br>Sẵn sàng chinh chiến.</h2></div><p>Giao diện dọc gọn gàng, các nhóm thiết lập riêng và log hoạt động ở cuối cửa sổ.</p></div>
+      <ol class="steps"><li><span>01</span><h3>Tải và mở iLSQ</h3><p>Tải file iLSQ.exe từ bản phát hành. Đặt trong thư mục bạn có quyền ghi để tool có thể tự cập nhật.</p></li><li><span>02</span><h3>Vào game trên PC</h3><p>Mở client và đăng nhập nhân vật. iLSQ tự quét client; chọn dòng nhân vật cần cấu hình.</p></li><li><span>03</span><h3>Thiết lập và Start</h3><p>Chọn ưu tiên ngọc, kỹ năng và tùy chọn vào trận kế tiếp. Nhấn Start cho client đang chọn hoặc Chạy tick cho cả nhóm.</p></li></ol>
+      <div class="guide-note"><span aria-hidden="true">i</span><p><strong>Chủ động theo dõi phiên chạy.</strong> Nhấn Stop để dừng client đang chọn, hoặc Dừng tick để dừng nhóm đã chọn. Khi game cập nhật, hãy kiểm tra phiên bản iLSQ tương thích trước khi chạy.</p></div>
+    </div></section>
+    <section class="faq section container" id="faq"><div class="eyebrow">GIẢI ĐÁP</div><h2>Trước khi bắt đầu.</h2><div class="faq-grid">
+      <details><summary>iLSQ chạy trên hệ điều hành nào?</summary><p>Tool dành cho Windows 10 / 11 64-bit và bản PC của Loạn 12 Sứ Quân. Hãy dùng bản iLSQ tương thích với phiên bản game hiện tại.</p></details>
+      <details><summary>Start và Chạy tick khác nhau thế nào?</summary><p>Start chạy client đang chọn trong danh sách. Chạy tick chạy các client được đánh dấu. Stop và Dừng tick hoạt động tương ứng.</p></details>
+      <details><summary>Tool có tự đăng nhập tài khoản không?</summary><p>Hiện tại bạn đăng nhập game trước. iLSQ tự nhận diện các client đã mở để bạn cấu hình và điều khiển.</p></details>
+      <details><summary>Bản game cập nhật thì làm gì?</summary><p>Mở iLSQ để kiểm tra bản mới và xem ghi chú phát hành. Nếu thao tác không còn hoạt động, dừng tool và đợi bản tương thích; tránh chạy lặp lại khi có lỗi.</p></details>
+    </div></section>
+    <section class="final-cta container"><img src="assets/icon.png" width="88" height="88" alt=""><div><div class="eyebrow">SẴN SÀNG CHO TRẬN KẾ TIẾP?</div><h2>Đồng hành cùng iLSQ.</h2><p>Công cụ hỗ trợ dành cho hành trình Loạn 12 Sứ Quân trên PC.</p></div><a class="button download-link" href="https://github.com/autotdk/ilsq/releases/latest/download/iLSQ.exe">Tải iLSQ <span aria-hidden="true">↓</span></a></section>
+  </main>
+  <footer class="container footer"><span>iLSQ · Công cụ hỗ trợ Loạn 12 Sứ Quân</span><div><a href="https://github.com/autotdk/ilsq/releases">Bản phát hành</a><a href="#guide">Hướng dẫn</a><a href="#">Về đầu trang ↑</a></div><small>Dự án độc lập, không phải website chính thức của game.</small></footer>
+</body>
+</html>
