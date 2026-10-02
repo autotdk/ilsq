@@ -15,7 +15,7 @@
     4. Khi link tải đã dùng được, đưa update.xml mới lên nhánh main của repo phát hành.
     5. Thử cập nhật từ một phiên bản thấp hơn.
 
-    Các thẻ version, url, sha256, mandatory chỉ xuất hiện một lần; note được lặp lại.
+    Các thẻ version, url, mandatory chỉ xuất hiện một lần; note được lặp lại.
     Chú thích không tham gia so phiên bản/tải file; có thể giữ nguyên khi phát hành.
     Đây là XML phẳng cho updater: không dùng CDATA hay namespace.
   -->
@@ -32,13 +32,6 @@
     Upload executable trước, cập nhật manifest sau; không commit executable vào repo source.
   -->
   <url>https://github.com/autotdk/ilsq/releases/download/v1.0/iLSQ.exe</url>
-  <!--
-    SHA-256 của đúng executable đã phát hành, gồm 64 ký tự hex.
-    Script tự tính giá trị này. Nếu build lại, ký số, nén hoặc thay file exe,
-    hãy chạy lại script và upload lại executable cùng manifest tương ứng.
-    Sai hash, sai phiên bản hoặc file không phải x64 thì tool từ chối thay bản cũ.
-  -->
-  <sha256>fe62d7670e5cda4d243c6c0ff5ba7ddbbf89f2dd11c88e18807e958b5af1b39f</sha256>
   <!--
     Mức cập nhật, chỉ dùng một trong ba giá trị:
     false  : hỏi cập nhật; được từ chối/hủy tải; lỗi thì giữ bản hiện tại.
