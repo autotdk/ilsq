@@ -25,7 +25,7 @@
     Chỉ cập nhật khi lớn hơn bản đang chạy; so theo số: 1.0.10 > 1.0.9.
     Kiểm tra bằng Properties > Details của executable; không chỉ sửa số ở XML.
   -->
-  <version>1.0.2.4</version>
+  <version>1.0.2.5</version>
   <!--
     Link HTTPS tới file iLSQ.exe đã upload trong GitHub Releases.
     Tag Release phải đúng v<version>, tên file đính kèm phải đúng iLSQ.exe.
